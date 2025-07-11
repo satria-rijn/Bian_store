@@ -1,0 +1,28 @@
+{
+  "name": "bian-store",
+  "version": "1.0.0",
+  "description": "Webstore backend with Express + session login",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "session",
+    "store",
+    "bian"
+  ],
+  "author": "satria / bian-store",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1"
+  }
+}
